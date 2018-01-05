@@ -1,0 +1,16 @@
+.recent-episodes {
+  flex: 1;
+  border: 2px solid black;
+  border-image-source: linear-gradient(to bottom right, #ffe100, #4500b3);
+  border-image-slice: 2;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media (max-width: 541px) {
+  .recent-episodes {
+    flex: 1;  
+  }  
+
+}
